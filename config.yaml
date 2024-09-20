@@ -1,0 +1,23 @@
+num_clients: 100
+num_rounds: 10
+fraction_fit: 1.0
+clause: 1000
+T: 1000
+sensitivity: 10.0
+
+experiments:
+  "1":
+    iid_percent: 100
+    non_iid_percent: 0
+  "2":
+    iid_percent: 75
+    non_iid_percent: 25
+  "3":
+    iid_percent: 50
+    non_iid_percent: 50
+  "4":
+    iid_percent: 25
+    non_iid_percent: 75
+  "5":
+    iid_percent: 0
+    non_iid_percent: 100
