@@ -1,0 +1,7 @@
+numpy
+pandas
+PyYAML
+tmu
+tensorflow
+tensorflow_probability
+torchvision
